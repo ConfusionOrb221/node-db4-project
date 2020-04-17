@@ -21,6 +21,20 @@ The requirements for the system, as stated by the client are:
 
 **Hint**: Before writing any code, write out all desired tables in the data model and determine all relationships between tables. 
 
+### Recipies
+Recipie Table
+| id | recipie_name 
+   1     Cookies     
+
+Ingrediants Detail
+| id | Ingridiant_id | quantity | recipie_id 
+
+Ingridents Table
+| id | Ingrident Name | 
+
+Insructions Table
+| id | Instruction | recipie_id | step_number
+
 ### Migrations and Seeds
 
 - Write a migration file that creates all tables necessary to model this data
